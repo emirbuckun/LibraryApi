@@ -1,0 +1,35 @@
+{
+  "dotnet.defaultSolution": "LibraryApp.sln",
+  "sqltools.connections": [
+    {
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 1433,
+      "driver": "MSSQL",
+      "name": "MSSQL Library",
+      "database": "Library",
+      "username": "SA",
+      "password": "2901Emir.2901"
+    },
+    {
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 1433,
+      "driver": "MSSQL",
+      "name": "MSSQL LibraryIdentity",
+      "database": "LibraryIdentity",
+      "username": "SA",
+      "password": "2901Emir.2901"
+    }
+  ]
+}
